@@ -1,0 +1,83 @@
+
+
+.slider{overflow: hidden;}
+		.slider figure
+		{
+			position: relative;
+			width: 500%;
+			max-height: 60%;
+			margin: 0;
+			left: 0;
+			animation: 20s slider infinite;
+		}
+		
+		.slider img{height: 500px;}
+		
+		.slider figure img
+		{
+			float: left;
+			width: 20%;
+		}
+		
+		@keyframes slider
+		{
+		0%{left: 0}
+		20%{left: 0}
+		25%{left: -100%}
+		45%{left: -100%}
+		50%{left: -200%}
+		70%{left: -200%}
+		75%{left: -300%}
+		95%{left: -300%}
+		100%{left: -400%}
+		}
+
+.Topic{margin: auto; background-color: #FFBF00;}
+		
+.Topic h1
+{
+	padding:15px;
+	text-align: center;
+	font-size: 50px;
+	text-transform: uppercase;
+}
+
+.Topic p
+{
+	padding-bottom:15px;
+	font-family: Arial;
+	font-size: 20px;
+	text-align: center;
+}
+
+.gallery
+{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 90%;
+	margin: 0 auto;
+	margin-bottom: 3%;
+}
+
+.gallery a
+{
+	width: 400px;
+	height: 300px; 
+	margin: 5px;
+	border-radius: 3px;
+	overflow: hidden;
+	box-shadow: 0 3px 5px #000;
+}
+
+.gallery a img
+{
+	width: 100%;
+	height: 100%; 
+	object-fit: cover;
+}
+
+.gallery a img:hover
+{
+	transform: scale(1.4);	
+}

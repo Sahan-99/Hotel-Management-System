@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+*{font-family: Poppins;}
+
+.slider{overflow: hidden;}
+		.slider figure
+		{
+			position: relative;
+			width: 500%;
+			max-height: 60%;
+			margin: 0;
+			left: 0;
+			margin-top: 4%;
+			animation: 20s slider infinite;
+		}
+		
+		.slider img{height: 500px;}
+		
+		.slider figure img
+		{
+			float: left;
+			width: 20%;
+		}
+		
+		@keyframes slider
+		{
+		0%{left: 0}
+		20%{left: 0}
+		25%{left: -100%}
+		45%{left: -100%}
+		50%{left: -200%}
+		70%{left: -200%}
+		75%{left: -300%}
+		95%{left: -300%}
+		100%{left: -400%}
+		}
+
+.Topic h1
+{
+	background-color: #FFBF00;
+	padding:15px;
+	text-align: center;
+	font-size: 50px;
+}
+
+.Topic p
+{
+	background-color: #FFBF00;
+	padding-bottom:15px;
+	font-family: Arial;
+	font-size: 20px;
+	text-align: center;
+}
+
+.paragraph img
+{
+	float: left;
+	max-width: 800px;
+	height: 500px;
+	margin-right: 20px;
+}
+
+	.paragraph
+	{
+		margin-top: 3%;
+		margin-bottom: 3%;
+		margin-left: 10%;
+		margin-right: 10%;
+		text-align: justify;
+		font-size: 20px;
+	}
+
+.paragraph02 img
+{
+	float: right;
+	max-width: 600px;
+	height: 400px;
+	margin-left: 20px;
+}
+
+	.paragraph02
+	{
+		margin-top: 3%;
+		margin-bottom: 3%;
+		margin-left: 10%;
+		margin-right: 10%;
+		background-color: lightgray;
+		min-width: 600px;
+		min-height: 400px;
+	}
+
+	.paragraph02 h1
+	{
+		margin-top: 2%;
+		text-align: center;
+		font-size: 40px;
+	}
+
+	.paragraph02 p
+	{
+		margin-top: 2%;
+		text-align: justify;
+		font-size: 15px;
+		padding: 15px;
+	}
+	
+.paragraph03 img
+{
+	float: left;
+	max-width: 600px;
+	height: 400px;
+	margin-right: 20px;
+}
+
+	.paragraph03
+	{
+		margin-top: 3%;
+		margin-bottom: 3%;
+		margin-left: 10%;
+		margin-right: 10%;
+		background-color: lightgray;
+		min-width: 600px;
+		min-height: 400px;
+	}
+
+	.paragraph03 h1
+	{
+		margin-top: 2%;
+		text-align: center;
+		font-size: 40px;
+	}
+
+	.paragraph03 p
+	{
+		margin-top: 2%;
+		text-align: justify;
+		font-size: 15px;
+		padding: 15px;
+	}
+	
+.paragraph04 img
+{
+	float: right;
+	max-width: 600px;
+	height: 400px;
+	margin-left: 20px;
+}
+
+	.paragraph04
+	{
+		margin-top: 3%;
+		margin-bottom: 3%;
+		margin-left: 10%;
+		margin-right: 10%;
+		background-color: lightgray;
+		min-width: 600px;
+		min-height: 400px;
+	}
+
+	.paragraph04 h1
+	{
+		margin-top: 2%;
+		text-align: center;
+		font-size: 40px;
+	}
+
+	.paragraph04 p
+	{
+		margin-top: 2%;
+		text-align: justify;
+		font-size: 15px;
+		padding: 15px;
+	}
+	
+.paragraph05 img
+{
+	float: left;
+	max-width: 600px;
+	height: 400px;
+	margin-right: 20px;
+}
+
+	.paragraph05
+	{
+		margin-top: 3%;
+		margin-bottom: 6%;
+		margin-left: 10%;
+		margin-right: 10%;
+		background-color: lightgray;
+		min-width: 600px;
+		min-height: 400px;
+	}
+
+	.paragraph05 h1
+	{
+		margin-top: 2%;
+		text-align: center;
+		font-size: 40px;
+	}
+
+	.paragraph05 p
+	{
+		margin-top: 2%;
+		text-align: justify;
+		font-size: 15px;
+		padding: 15px;
+	}
