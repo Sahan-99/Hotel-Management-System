@@ -1,1 +1,1 @@
-This Hotel Management System is created as an assignment-based project using only HTML, CSS. The website is designed exclusively for desktop computers and is not responsive for mobile or tablet devices.
+This Hotel Management System is created as an assignment-based project using only HTML, CSS.
